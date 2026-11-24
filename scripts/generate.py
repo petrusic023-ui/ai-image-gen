@@ -15,6 +15,7 @@ import base64
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -35,8 +36,7 @@ def main(job_path: str) -> int:
     out_dir = Path(__file__).resolve().parent.parent / "output" / project
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    failed = 0
-    for img in job["images"]:
+    def run(img):
         body = {
             "model": model,
             "prompt": img["prompt"],
@@ -48,12 +48,11 @@ def main(job_path: str) -> int:
             API,
             headers={"Authorization": f"Bearer {key}"},
             json=body,
-            timeout=300,
+            timeout=600,
         )
         if r.status_code != 200:
             print(f"[FAIL] {img['name']}: {r.status_code} {r.text[:300]}")
-            failed += 1
-            continue
+            return False
         data = r.json()["data"][0]
         target = out_dir / f"{img['name']}.png"
         if "b64_json" in data:
@@ -61,6 +60,12 @@ def main(job_path: str) -> int:
         else:
             target.write_bytes(requests.get(data["url"], timeout=120).content)
         print(f"[OK] {target}")
+        return True
+
+    workers = int(job.get("parallel", 4))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(run, job["images"]))
+    failed = results.count(False)
 
     return 1 if failed else 0
 

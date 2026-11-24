@@ -1,0 +1,51 @@
+{
+  "project": "ravnica",
+  "model": "gpt-image-2",
+  "parallel": 4,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "medium"
+  },
+  "images": [
+    {
+      "name": "hero-house",
+      "size": "1536x1024",
+      "prompt": "Wide view of a long single-storey Banat farmhouse (salas) with ornate brick gable and sage shutters, standing alone in golden wheat fields at golden hour, tall acacia tree beside it. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "plains",
+      "size": "1536x1024",
+      "prompt": "Endless flat Banat plain at dawn, mist over sunflower fields, a dirt road and a single distant farmhouse, enormous pale sky. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "courtyard",
+      "size": "1024x1536",
+      "prompt": "Inner courtyard of the farmhouse, long arcade with brick columns, linen curtains moving in the breeze, potted geraniums, worn brick paving. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "room",
+      "size": "1536x1024",
+      "prompt": "Guest room interior: whitewashed walls, wooden beam ceiling, linen bed, handwoven Banat textile on the bed, deep window with sage shutter open to wheat fields, morning light. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "table",
+      "size": "1536x1024",
+      "prompt": "Long oak table set outdoors under a vine pergola at dusk: homemade bread, kajmak, ajvar, tomatoes, wine in clay jugs, linen napkins, candles, top-down three-quarter angle. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "bread",
+      "size": "1024x1536",
+      "prompt": "Close-up of hands kneading dough on a floured oak board, side light from a small window, flour dust in the air, forearms only, rustic kitchen. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "brick",
+      "size": "1024x1536",
+      "prompt": "Detail of handmade ochre bricks in an ornamental gable pattern, a small round window, late sun raking across the texture, swallows nest under the eave. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    },
+    {
+      "name": "evening",
+      "size": "1536x1024",
+      "prompt": "The farmhouse at blue hour, warm light glowing from the windows and an open door, lanterns along the path, first stars over the plain. Editorial architectural photography for a boutique farmstay hotel in the Banat plains of Vojvodina. Shot on medium format film, Kodak Portra 400 palette: warm ochre brick, whitewashed lime walls, faded sage green shutters, linen, oak, terracotta roof tiles. Soft low sun, gentle haze, natural imperfections, no people facing camera, no text, no logos."
+    }
+  ]
+}
