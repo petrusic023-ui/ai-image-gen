@@ -1,0 +1,27 @@
+{
+  "project": "petrusic-carousel-objects",
+  "model": "gpt-image-2",
+  "defaults": {"size": "1024x1024", "quality": "high"},
+  "images": [
+    {
+      "name": "speedometer",
+      "prompt": "A single glossy 3D speedometer gauge object, made of smooth glossy orange plastic (exact color #FF4F1F) with a white needle pointing far to the right into the fast zone, centered, floating slightly above a plain warm off-white paper background (#F7F7F2), soft studio lighting, soft realistic contact shadow below, clean minimal product render, subtle highlights and reflections, no text, no numbers, no logos, no other objects, generous empty space around the object."
+    },
+    {
+      "name": "empty-mailbox",
+      "prompt": "A single glossy 3D mailbox object, smooth glossy orange plastic (exact color #FF4F1F), its small front door slightly open showing it is completely empty inside, flag down, centered, floating slightly above a plain warm off-white paper background (#F7F7F2), soft studio lighting, soft realistic contact shadow below, clean minimal product render, no text, no letters, no logos, no other objects, generous empty space around the object."
+    },
+    {
+      "name": "three-receipts",
+      "prompt": "Three glossy 3D paper receipt slips standing upright side by side, made of smooth glossy orange material (exact color #FF4F1F) with slightly different heights so they clearly do not match, simple abstract horizontal lines instead of printed text, centered, floating slightly above a plain warm off-white paper background (#F7F7F2), soft studio lighting, soft realistic contact shadow, clean minimal product render, no readable text, no numbers, no logos, generous empty space."
+    },
+    {
+      "name": "abandoned-cart",
+      "prompt": "A single glossy 3D shopping cart object, smooth glossy orange plastic (exact color #FF4F1F), empty, slightly turned at a three-quarter angle as if left behind, centered, standing on a plain warm off-white paper background (#F7F7F2), soft studio lighting, soft realistic contact shadow, clean minimal product render, no text, no logos, no other objects, generous empty space around the object."
+    },
+    {
+      "name": "chat-magnifier",
+      "prompt": "A single glossy 3D speech bubble object made of smooth glossy orange plastic (exact color #FF4F1F) with a glossy white-rimmed magnifying glass leaning against it, centered, floating slightly above a plain warm off-white paper background (#F7F7F2), soft studio lighting, soft realistic contact shadow below, clean minimal product render, no text, no letters, no logos, no other objects, generous empty space around the objects."
+    }
+  ]
+}
