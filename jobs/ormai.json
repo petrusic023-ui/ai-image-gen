@@ -1,0 +1,81 @@
+{
+  "project": "ormai",
+  "model": "gpt-image-2",
+  "parallel": 5,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "high"
+  },
+  "images": [
+    {
+      "name": "hero-bench",
+      "size": "1536x1024",
+      "prompt": "A goldsmith's hands at a worn wooden jeweller's bench with a leather catch skin, holding a plain 18k yellow gold wedding band in a ring clamp and polishing it, dozens of old files and pliers in a wooden rack, a single warm lamp and a window behind, dark forest green wall in the background. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "burme",
+      "size": "1536x1024",
+      "prompt": "Two classic wedding bands, one yellow gold and one white gold, slightly overlapping on a folded cream linen cloth, the inside of one band showing a delicate hand-engraved pattern with no readable letters, soft raking light. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "zlatnik",
+      "size": "1024x1024",
+      "prompt": "A small round gold gift coin with a simple embossed relief of a child's hand, no lettering, resting in an open deep green velvet presentation box, on cream paper, soft top light, gift for a newborn baby. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "investiciono",
+      "size": "1024x1024",
+      "prompt": "A small stack of plain investment gold bars without any stamped text, and three plain gold coins without lettering, on dark green felt, precise studio light, quiet and trustworthy. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "konac",
+      "size": "1024x1536",
+      "prompt": "A delicate red thread bracelet with a tiny solid yellow gold heart charm, worn on a woman's wrist, cream knit sleeve, soft daylight, close-up, intimate. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "mindjuse",
+      "size": "1024x1536",
+      "prompt": "Portrait crop of a woman in her thirties, side profile from chin to shoulder, wearing small classic yellow gold hoop earrings and a thin gold chain, cream linen shirt, soft window light against a deep green wall, calm and natural, face mostly out of frame. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "srebro",
+      "size": "1024x1024",
+      "prompt": "A fine sterling silver necklace with a small round silver pendant, coiled on a cream stone surface, cool soft light with a hint of warm reflection. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "sat",
+      "size": "1536x1024",
+      "prompt": "A classic men's wristwatch with a cream dial and plain stick indices, no brand and no text on the dial, on a brown leather strap, worn on a wrist resting on a walnut desk next to a notebook, warm afternoon light. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "graviranje",
+      "size": "1536x1024",
+      "prompt": "Macro of a steel hand engraving graver cutting a fine line into the inside of a yellow gold ring held in a clamp, tiny bright gold curls of metal, the engraved line is an abstract flourish with no letters, dark background, single warm light. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "topljenje",
+      "size": "1536x1024",
+      "prompt": "A small ceramic crucible with glowing molten gold being poured into a narrow steel ingot mould in a goldsmith workshop, orange glow, charcoal, deep shadows, documentary. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "alat",
+      "size": "1536x1024",
+      "prompt": "Black and white still life of very old goldsmith tools on a scarred wooden bench: worn files, a small anvil, a draw plate, a jeweller's saw, a brass scale, an oil lamp, timeless, soft side light. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "popravka",
+      "size": "1024x1536",
+      "prompt": "A goldsmith using a loupe to inspect a repaired antique gold ring with a small red stone, held in tweezers, his face out of frame, warm lamp light, green wall behind. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "zig",
+      "size": "1536x1024",
+      "prompt": "Extreme macro of a small steel hallmark punch tool lying beside a yellow gold ring; on the inner surface of the ring a tiny freshly struck rectangular hallmark impression, the hallmark is an abstract mark with no readable letters, dark green leather surface, crisp raking light. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "name": "izlog",
+      "size": "1536x1024",
+      "prompt": "Interior of a small, warm, traditional jewellery shop at dusk seen from outside through the shop window, glass display counters with gold jewellery softly lit, wooden cabinets, deep green walls, an elegant pre-war Central European town street reflected faintly in the glass, nobody inside, no signage. Editorial photography for a family goldsmith workshop in a small Central European town, founded 1938. Honest everyday fine jewellery in 14k and 18k yellow gold, not haute joaillerie. Warm natural window light, deep forest green and warm cream tones, brass and walnut, shot on medium format film, fine grain, shallow depth of field, photorealistic, no text, no letters, no logos, no watermarks."
+    }
+  ]
+}
