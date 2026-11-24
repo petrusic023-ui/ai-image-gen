@@ -1,0 +1,11 @@
+{
+  "project": "test",
+  "model": "gpt-image-2",
+  "defaults": {"size": "1024x1024", "quality": "medium"},
+  "images": [
+    {
+      "name": "banat-house",
+      "prompt": "Traditional Banat brick farmhouse at golden hour, Vojvodina plains, warm light, photorealistic"
+    }
+  ]
+}
