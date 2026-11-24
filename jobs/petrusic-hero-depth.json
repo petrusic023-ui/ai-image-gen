@@ -1,0 +1,44 @@
+{
+  "project": "petrusic-hero-depth",
+  "model": "gpt-image-2",
+  "parallel": 3,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "high"
+  },
+  "depth_extra": [
+    "refs/zeljko-portrait.jpg"
+  ],
+  "images": [
+    {
+      "name": "hand-to-lens",
+      "prompt": "Use the reference photo as the exact identity of the man: the same face, same nose, eyes, ears, jaw and head shape, the same very short dark hair with a slightly receding hairline, the same light stubble, the same age; do not beautify, do not change his features, he must be clearly recognisable as the same person. He wears the same black turtleneck sweater. He stands facing the camera, looking straight into the lens with a calm confident expression, and reaches one open hand toward the camera, palm facing the lens, fingers spread, the hand close to the lens and large in the foreground. Black-and-white editorial portrait photography, high contrast but soft studio light from the left, plain light grey seamless studio background, shot on a 35mm lens close to the subject so the hand nearest the camera looks large and the perspective is strong, sharp focus on the eyes, foreground hand slightly soft, fine film grain, premium personal-brand look. Wide landscape frame: the man is placed in the right half of the frame, the left 40 percent is calm empty light grey background for website headline text. No text, no logos, no watermark, no rings or jewellery.",
+      "size": "1536x1024",
+      "references": [
+        "refs/zeljko-portrait.jpg"
+      ],
+      "input_fidelity": "high",
+      "depth": true
+    },
+    {
+      "name": "frame-gesture",
+      "prompt": "Use the reference photo as the exact identity of the man: the same face, same nose, eyes, ears, jaw and head shape, the same very short dark hair with a slightly receding hairline, the same light stubble, the same age; do not beautify, do not change his features, he must be clearly recognisable as the same person. He wears the same black turtleneck sweater. He looks into the lens and makes a designer's framing gesture toward the camera with both hands, thumbs and index fingers forming a rectangle close to the lens, his face visible through and beside the frame. Black-and-white editorial portrait photography, high contrast but soft studio light from the left, plain light grey seamless studio background, shot on a 35mm lens close to the subject so the hand nearest the camera looks large and the perspective is strong, sharp focus on the eyes, foreground hand slightly soft, fine film grain, premium personal-brand look. Wide landscape frame: the man is placed in the right half of the frame, the left 40 percent is calm empty light grey background for website headline text. No text, no logos, no watermark, no rings or jewellery.",
+      "size": "1536x1024",
+      "references": [
+        "refs/zeljko-portrait.jpg"
+      ],
+      "input_fidelity": "high",
+      "depth": true
+    },
+    {
+      "name": "lean-in",
+      "prompt": "Use the reference photo as the exact identity of the man: the same face, same nose, eyes, ears, jaw and head shape, the same very short dark hair with a slightly receding hairline, the same light stubble, the same age; do not beautify, do not change his features, he must be clearly recognisable as the same person. He wears the same black turtleneck sweater. He leans toward the camera from a low stool, forearms forward, one hand raised near the lens with fingers slightly curled as if reaching out to the viewer, head turned three-quarters toward the camera, looking into the lens. Black-and-white editorial portrait photography, high contrast but soft studio light from the left, plain light grey seamless studio background, shot on a 35mm lens close to the subject so the hand nearest the camera looks large and the perspective is strong, sharp focus on the eyes, foreground hand slightly soft, fine film grain, premium personal-brand look. Wide landscape frame: the man is placed in the right half of the frame, the left 40 percent is calm empty light grey background for website headline text. No text, no logos, no watermark, no rings or jewellery.",
+      "size": "1536x1024",
+      "references": [
+        "refs/zeljko-portrait.jpg"
+      ],
+      "input_fidelity": "high",
+      "depth": true
+    }
+  ]
+}

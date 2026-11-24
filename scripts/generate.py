@@ -9,6 +9,8 @@ Job format:
     {"name": "hero", "prompt": "...", "size": "1536x1024"}
   ]
 }
+Optional per image: "references": ["refs/photo.jpg", ...] -> uses the edits endpoint
+with those images as references; "input_fidelity": "high" to keep faces/details close.
 Output: output/<project>/<name>.png
 """
 import base64
@@ -21,6 +23,8 @@ from pathlib import Path
 import requests
 
 API = "https://api.openai.com/v1/images/generations"
+EDIT_API = "https://api.openai.com/v1/images/edits"
+ROOT = Path(__file__).resolve().parent.parent
 
 
 def main(job_path: str) -> int:
@@ -44,12 +48,28 @@ def main(job_path: str) -> int:
             "quality": img.get("quality", defaults.get("quality", "high")),
             "n": 1,
         }
-        r = requests.post(
-            API,
-            headers={"Authorization": f"Bearer {key}"},
-            json=body,
-            timeout=600,
-        )
+        refs = img.get("references") or []
+        if refs:
+            fid = img.get("input_fidelity", defaults.get("input_fidelity"))
+
+            def send(with_fid):
+                data = {k: str(v) for k, v in body.items()}
+                if with_fid and fid:
+                    data["input_fidelity"] = fid
+                files = [("image[]", (Path(f).name, (ROOT / f).read_bytes(), "image/jpeg" if f.lower().endswith((".jpg", ".jpeg")) else "image/png")) for f in refs]
+                return requests.post(EDIT_API, headers={"Authorization": f"Bearer {key}"}, data=data, files=files, timeout=600)
+
+            r = send(True)
+            if r.status_code == 400 and fid and "input_fidelity" in r.text:
+                print(f"[INFO] {img['name']}: input_fidelity not supported, retrying without it")
+                r = send(False)
+        else:
+            r = requests.post(
+                API,
+                headers={"Authorization": f"Bearer {key}"},
+                json=body,
+                timeout=600,
+            )
         if r.status_code != 200:
             print(f"[FAIL] {img['name']}: {r.status_code} {r.text[:300]}")
             return False

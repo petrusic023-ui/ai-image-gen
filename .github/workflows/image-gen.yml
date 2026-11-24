@@ -50,6 +50,16 @@ jobs:
             python scripts/generate.py "$job" || status=1
           done < /tmp/jobs.txt
           exit $status
+      - name: Depth maps
+        if: always()
+        run: |
+          if xargs -r grep -lE '"depth"[[:space:]]*:[[:space:]]*true|"depth_extra"' < /tmp/jobs.txt > /tmp/depthjobs.txt 2>/dev/null && [ -s /tmp/depthjobs.txt ]; then
+            pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+            pip install --quiet transformers pillow numpy
+            while IFS= read -r job; do python scripts/depth.py "$job"; done < /tmp/depthjobs.txt
+          else
+            echo "no depth jobs"
+          fi
       - name: Commit images
         if: always()
         run: |
