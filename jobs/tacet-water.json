@@ -1,0 +1,2 @@
+{"project":"tacet","model":"gpt-image-2","defaults":{"size":"1536x1024","quality":"high"},
+ "images":[{"name":"water","prompt":"Abstract close-up of a calm, deep green-teal lake surface seen from just above, soft rippling light caustics and reflections of a pale overcast sky, uniform texture across the whole frame, no objects, no colour accents, no fish, no boats, minimal, calm. High-end editorial photography, Hasselblad medium format, subtle film grain, photorealistic, no text."}]}
