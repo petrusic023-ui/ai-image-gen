@@ -1,0 +1,135 @@
+{
+  "project": "siel",
+  "model": "gpt-image-2",
+  "parallel": 5,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "high"
+  },
+  "images": [
+    {
+      "name": "dial",
+      "size": "1536x1024",
+      "prompt": "Extreme close-up of a 38 mm round wristwatch with a polished steel case and thin bezel, a warm white grand feu enamel dial, slim blued steel leaf hands, a small seconds sub-dial at six o'clock, thin black railroad minute track, no numerals, no text or logo on the dial, resting on dark walnut, raking morning light across the enamel, blued hands glowing, shallow depth of field. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "m6",
+      "size": "1024x1024",
+      "prompt": "Perfectly top-down macro photograph of a fully assembled hand-finished mechanical watch movement, round, centred in the frame on a matte black background, German silver three-quarter plate with Glash\u00fctte-style stripes, gold chatons with blue screws, red ruby jewels, a large balance wheel under a hand-engraved cock, visible ratchet and crown wheels, soft even light, crisp focus edge to edge. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "brass",
+      "size": "1536x1024",
+      "prompt": "Raw brass and German silver blanks: thin round plates stacked and scattered on a scarred steel workbench, fresh machining marks, cold window light, still life. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "bench",
+      "size": "1536x1024",
+      "prompt": "A watchmaker at a wooden bench by a large window, seen from behind over the shoulder, hands working with tweezers under a loupe on a tiny movement, dozens of small tools in a wooden rack, snowy mountains faintly visible outside, warm lamp light mixing with cold daylight. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "loupe",
+      "size": "1024x1536",
+      "prompt": "Side portrait of an older watchmaker with a loupe in his eye, deep concentration, grey stubble, leather apron, dark background, single warm lamp light, documentary style. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "anglage",
+      "size": "1024x1536",
+      "prompt": "Extreme macro of a craftsperson's fingers holding a tiny steel watch bridge and polishing its bevelled edge with a wooden stick, mirror-bright angle catching the light, fine dust, black background. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "kiln",
+      "size": "1536x1024",
+      "prompt": "Inside a small enamelling workshop: a glowing orange kiln with its door open, a white enamel watch dial on a steel rack being lifted out with long tongs, intense orange light, deep shadows, sparks of heat haze. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "enamel",
+      "size": "1024x1536",
+      "prompt": "Macro of a freshly fired warm-white grand feu enamel watch dial, no hands, no text, glossy depth, tiny imperfections, resting on a dark steel firing rack, soft side light. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "regulate",
+      "size": "1536x1024",
+      "prompt": "A watch movement in a holder on a timing machine beside a window, the screen showing a simple trace line, snow falling outside over a quiet Jura valley, cool blue daylight and one warm lamp, minimal composition. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "jura",
+      "size": "1536x1024",
+      "prompt": "Wide winter landscape of the Swiss Jura at dawn: rolling snowy pastures, dark spruce forests, a small village with an old stone workshop with lit windows, soft pink and blue sky. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "wrist",
+      "size": "1024x1536",
+      "prompt": "A man's wrist wearing a 38 mm round wristwatch with a polished steel case and thin bezel, a warm white grand feu enamel dial, slim blued steel leaf hands, a small seconds sub-dial at six o'clock, thin black railroad minute track, no numerals, no text or logo on the dial, cuff of a heavy grey wool coat, standing on a snowy village street at blue hour, warm shop windows blurred behind, candid. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "ref-1",
+      "size": "1024x1024",
+      "prompt": "Product photograph of a 38 mm round wristwatch with a polished steel case and thin bezel, a warm white grand feu enamel dial, slim blued steel leaf hands, a small seconds sub-dial at six o'clock, thin black railroad minute track, no numerals, no text or logo on the dial on a brown leather strap, three-quarter view, on a warm grey seamless background, soft studio light. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "ref-2",
+      "size": "1024x1024",
+      "prompt": "Product photograph of a 38 mm round wristwatch with a polished steel case and a deep blue grand feu enamel dial, slim white gold leaf hands, small seconds at six, no text on the dial, on a black leather strap, three-quarter view, warm grey seamless background, soft studio light. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "night",
+      "size": "1536x1024",
+      "prompt": "The old stone watchmaking workshop in the Jura at night in deep snow, one window lit warmly, a lamp over a workbench visible inside, stars, quiet. Editorial still-life and documentary photography for an independent watchmaker, shot on Leica, single soft key light, deep natural shadows, warm neutral palette of steel, brass, walnut and white enamel, fine film grain, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "m5",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m6.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Remove the balance wheel and its engraved balance cock completely, leaving the empty recess and its jewel hole visible. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    },
+    {
+      "name": "m4",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m5.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Remove the ratchet wheel and crown wheel and their screws from the plate, leaving the bare plate surface with empty screw holes. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    },
+    {
+      "name": "m3",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m4.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Remove the entire large German silver three-quarter plate, revealing the brass gear train wheels and pinions underneath, sitting in their jewels on the lower mainplate. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    },
+    {
+      "name": "m2",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m3.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Remove all the gear wheels and pinions, leaving only the bare lower mainplate with its empty jewel holes, small screws and pillars. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    },
+    {
+      "name": "m1",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m2.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Remove all screws, pillars and jewels, leaving only a single bare machined German silver mainplate with empty holes and recesses. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    },
+    {
+      "name": "m0",
+      "size": "1024x1024",
+      "references": [
+        "output/siel/m1.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Replace the machined plate with a plain, flat, unmachined round German silver disc of the same size, with no holes, just fine lathe marks. Keep everything else exactly identical: same camera position, scale, framing, lighting, background and remaining parts. Photorealistic macro."
+    }
+  ]
+}

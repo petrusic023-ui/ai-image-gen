@@ -11,6 +11,7 @@ Job format:
 }
 Optional per image: "references": ["refs/photo.jpg", ...] -> uses the edits endpoint
 with those images as references; "input_fidelity": "high" to keep faces/details close.
+A reference inside output/<project>/ makes the image wait for that output (sequential chain).
 Output: output/<project>/<name>.png
 """
 import base64
@@ -82,9 +83,20 @@ def main(job_path: str) -> int:
         print(f"[OK] {target}")
         return True
 
+    # Images whose references point at this job's own output form a chain:
+    # independent images run in parallel first, then the chain runs in listed order.
+    own = f"output/{project}/"
+    chained = lambda i: any(str(f).startswith(own) for f in (i.get("references") or []))
     workers = int(job.get("parallel", 4))
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        results = list(pool.map(run, job["images"]))
+        results = list(pool.map(run, [i for i in job["images"] if not chained(i)]))
+    for img in [i for i in job["images"] if chained(i)]:
+        missing = [f for f in img["references"] if not (ROOT / f).exists()]
+        if missing:
+            print(f"[SKIP] {img['name']}: missing {missing}")
+            results.append(False)
+            continue
+        results.append(run(img))
     failed = results.count(False)
 
     return 1 if failed else 0
