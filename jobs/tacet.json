@@ -1,0 +1,111 @@
+{
+  "project": "tacet",
+  "model": "gpt-image-2",
+  "parallel": 5,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "high"
+  },
+  "images": [
+    {
+      "name": "hero-top",
+      "size": "1536x1024",
+      "prompt": "Straight-down aerial drone view of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos gliding across a perfectly still dark green alpine lake, a long thin V-shaped wake, boat small in the frame, dawn light. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "hero-profile",
+      "size": "1536x1024",
+      "prompt": "Side profile of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos at rest on a mirror-calm alpine lake at blue hour before sunrise, mountains in soft haze, perfect reflection in the water. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "bow",
+      "size": "1024x1536",
+      "prompt": "Low close angle at water level of the plumb bow of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos slicing cleanly through calm water, droplets catching the light, shallow depth of field. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "wake",
+      "size": "1024x1536",
+      "prompt": "Aerial view of the clean white wake of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos curving across deep turquoise water, the boat at the top edge of the frame. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "cockpit",
+      "size": "1536x1024",
+      "prompt": "Interior cockpit of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos: minimalist helm with a slim aluminium steering wheel, one small matte display, cream leather benches, teak sole, lake and mountains beyond the glass windscreen. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "helm",
+      "size": "1024x1536",
+      "prompt": "Macro detail of a slim brushed-aluminium steering wheel and a single round matte black instrument dial on a pale teak dashboard, soft side light, electric yacht helm, no text on the dial. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "teak",
+      "size": "1024x1536",
+      "prompt": "Macro detail of a pale teak boat deck with fine caulking lines, water droplets, a polished aluminium cleat, morning side light. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "motor",
+      "size": "1536x1024",
+      "prompt": "Studio photograph of a sculptural electric pod drive for a boat, brushed aluminium and matte graphite, a slim propeller, placed on a dark slate plinth, soft overhead light, product photography. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "atelier",
+      "size": "1536x1024",
+      "prompt": "Wide interior of a quiet boat-building atelier on Lake Constance, timber roof trusses, large north-facing windows onto the lake, an unfinished mist-grey hull of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos on a cradle, craftspeople working in the background seen from behind. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "hands",
+      "size": "1024x1536",
+      "prompt": "Close-up of a craftsperson's hands sanding a curved teak handrail in a boatbuilding workshop, fine dust in window light, forearms only, no face. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "layup",
+      "size": "1536x1024",
+      "prompt": "Craftsperson seen from behind laying dark carbon fibre sheets into a long hull mould in a clean bright workshop, careful precise work, soft daylight. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "dock-night",
+      "size": "1536x1024",
+      "prompt": "the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos moored at a minimalist wooden private dock at night on an alpine lake, a slim charging pillar glowing softly, warm cabin lights reflected on black water, stars. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "lake",
+      "size": "1536x1024",
+      "prompt": "Wide landscape of a narrow alpine lake between steep forested mountains in early morning mist, the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos very small in the distance leaving a faint line. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "adriatic",
+      "size": "1536x1024",
+      "prompt": "the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos anchored in a secluded Adriatic cove with clear turquoise water over white pebbles, pine trees and pale limestone cliffs, midday light, seen from above at an angle. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "swim",
+      "size": "1024x1536",
+      "prompt": "Two people seen from behind sitting on the stern swim platform of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos, feet in clear turquoise water, Adriatic cove, relaxed, faces not visible. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "model-8",
+      "size": "1536x1024",
+      "prompt": "The smallest version, an 8 metre open day boat version of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos, seen in three-quarter view on calm grey-green lake water, overcast soft light, generous negative space. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "model-11",
+      "size": "1536x1024",
+      "prompt": "An 11 metre version of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos with a small sun canopy, three-quarter view cruising slowly on a calm alpine lake, soft afternoon light, generous negative space. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "model-14",
+      "size": "1536x1024",
+      "prompt": "A 14 metre cruiser version of the TACET electric boat: a long, low, sleek electric day boat with a near-vertical plumb bow, flush pale teak deck, a matte mist-grey hull with one thin coral-red waterline stripe, a low curved frameless glass windscreen, cream leather bench seating, no mast, no outboard engine, no flags, no visible text or logos with a low sculpted cabin, three-quarter view on calm open water at golden hour, generous negative space. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "water",
+      "size": "1536x1024",
+      "prompt": "Abstract close-up of a calm water surface with soft rippling light caustics and reflections of a pale sky, deep green tones, minimal, texture photograph. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    },
+    {
+      "name": "reed",
+      "size": "1024x1536",
+      "prompt": "A grey heron standing in reeds at the edge of a misty alpine lake at dawn, quiet, soft muted colours, telephoto. High-end editorial yacht photography, shot on Hasselblad medium format, restrained cool palette of deep lake green, slate, mist white and brushed aluminium, a single coral accent, soft natural light, subtle film grain, calm and quiet mood, photorealistic, no text, no watermarks, no logos."
+    }
+  ]
+}
