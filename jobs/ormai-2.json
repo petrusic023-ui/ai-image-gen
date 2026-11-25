@@ -1,0 +1,81 @@
+{
+  "project": "ormai-2",
+  "model": "gpt-image-2",
+  "parallel": 5,
+  "defaults": {
+    "size": "1024x1024",
+    "quality": "high"
+  },
+  "images": [
+    {
+      "name": "p-duplo-srce",
+      "size": "1024x1024",
+      "prompt": "A delicate red thread bracelet with a small solid yellow gold charm of two interlocking hearts, laid in a soft curve. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-leptir",
+      "size": "1024x1024",
+      "prompt": "A delicate red thread bracelet with a tiny solid yellow gold butterfly charm, laid in a soft curve. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-detelina",
+      "size": "1024x1024",
+      "prompt": "A delicate red thread bracelet with a tiny solid yellow gold four-leaf clover charm, laid in a soft curve. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-andjeo",
+      "size": "1024x1024",
+      "prompt": "A delicate red thread bracelet with a tiny solid yellow gold angel charm, laid in a soft curve. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-sat-beli",
+      "size": "1024x1024",
+      "prompt": "A classic men's stainless steel quartz wristwatch with a white dial, simple stick indices and a date window, steel link bracelet, three-quarter view, no brand name and no text on the dial. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-sat-plavi",
+      "size": "1024x1024",
+      "prompt": "A classic men's stainless steel quartz wristwatch with a deep blue dial, simple stick indices, steel link bracelet, three-quarter view, no brand name and no text on the dial. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-mindjuse",
+      "size": "1024x1024",
+      "prompt": "A pair of small classic 14k yellow gold hoop earrings with fine hinged clasp, one standing, one lying flat. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "p-zlatnik",
+      "size": "1024x1024",
+      "prompt": "A small round polished gold gift coin with a simple embossed relief of a baby's footprint, no lettering, lying slightly tilted. Clean e-commerce packshot for a family jewellery shop, centred on a seamless warm cream background (#ECE6D8), soft diffused studio light, gentle natural shadow, true-to-life 14k yellow gold, photorealistic, square crop with generous empty space around the object, no props, no text, no logos, no watermarks."
+    },
+    {
+      "name": "c-handmade",
+      "size": "1024x1024",
+      "prompt": "Two hand-forged yellow gold wedding bands with a softly hammered texture, resting together on raw linen. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "c-prestige",
+      "size": "1024x1024",
+      "prompt": "Two wide, heavy, highly polished yellow and white gold wedding bands, bold and massive, on dark green velvet. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "c-stone",
+      "size": "1024x1024",
+      "prompt": "Two wedding bands, the narrower one set with a single row of small brilliant white stones, on cream stone surface, sparkling. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "c-millenium",
+      "size": "1024x1024",
+      "prompt": "Two classic comfort-fit wedding bands, one rose gold and one yellow gold, with a subtle matte central band and polished edges, on cream paper. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "g-krstenje",
+      "size": "1536x1024",
+      "prompt": "A baby's christening scene detail: small hand of a sleeping baby on white lace, a tiny gold gift box beside it, soft morning light. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    },
+    {
+      "name": "g-verenje",
+      "size": "1536x1024",
+      "prompt": "Close-up of a man's hands opening a small dark green ring box revealing a solitaire engagement ring, warm evening light, intimate. Editorial photography, warm natural light, deep forest green and cream tones, medium format film look, photorealistic, no text, no logos, no watermarks."
+    }
+  ]
+}
