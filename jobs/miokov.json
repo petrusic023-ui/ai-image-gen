@@ -1,0 +1,60 @@
+{
+  "project": "miokov",
+  "model": "gpt-image-2",
+  "parallel": 5,
+  "defaults": {
+    "size": "1536x1024",
+    "quality": "high"
+  },
+  "images": [
+    {
+      "name": "hero",
+      "size": "1536x1024",
+      "prompt": "Exterior at blue hour of a small independent car repair workshop on the edge of Zrenjanin in the flat Banat plain: a simple single-storey plastered building with one large open roller garage door, warm light spilling out onto damp asphalt, inside a dark grey hatchback raised on a two-post lift with a mechanic working under it seen from behind, a thin red light strip along the eaves, a few tall poplar trees and a flat open horizon, deep blue sky. The building sits in the right two thirds of the frame; the left third is calm dark sky and asphalt with room for a headline. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "interior",
+      "size": "1536x1024",
+      "prompt": "Wide interior of the workshop in late afternoon: two two-post lifts, one holding a silver family car, a pegboard tool wall with neatly hung wrenches, a red rolling tool chest, a clean concrete floor with a drain channel, soft daylight from high windows mixing with tungsten work lights, nobody looking at the camera. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "diag",
+      "size": "1024x1536",
+      "prompt": "Close-up of a mechanic's hands holding a rugged diagnostic tablet showing abstract colourful graphs with no readable text, its cable plugged into the OBD port under a car dashboard, the dashboard glowing softly, shallow depth of field, forearms only, no face. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "brakes",
+      "size": "1024x1536",
+      "prompt": "Car on a lift with the front wheel removed: a brand-new ventilated brake disc and a red brake caliper, a gloved hand tightening a bolt with a torque wrench, raking work light, metal textures, shallow depth of field. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "gearbox",
+      "size": "1024x1536",
+      "prompt": "A manual car gearbox opened on a steel workbench, gears and shafts exposed and clean, a few tools and a shop rag beside it, overhead tungsten light, top-down three-quarter angle. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "oil",
+      "size": "1024x1536",
+      "prompt": "Macro shot of fresh golden engine oil pouring in a smooth stream from an unlabeled metal jug with a funnel into an engine oil filler neck, warm backlight making the oil glow amber. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "underside",
+      "size": "1536x1024",
+      "prompt": "Low angle from beneath a car raised on a lift: exhaust pipe, suspension arms and springs, a mechanic standing under it inspecting with an LED inspection lamp, seen from the side, dramatic light from the lamp. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "keys",
+      "size": "1536x1024",
+      "prompt": "At a simple workshop counter, a mechanic's hand with a little grease on the knuckles handing car keys on a plain red keyring to a customer's hand, shallow depth of field, workshop softly blurred behind, warm light, hands only, no faces. Cinematic automotive editorial photography, shot on a full-frame camera with a 35mm lens, dark graphite and charcoal palette, warm tungsten work lights, one single deep red accent, a real small independent family-run car workshop in Vojvodina, Serbia, slightly worn but clean and well organized, natural imperfections, subtle film grain, photorealistic, no text, no readable writing, no watermarks, no logos, no brand badges, no license plates."
+    },
+    {
+      "name": "logo-clean",
+      "size": "1536x1024",
+      "references": [
+        "refs/miokov-logo.png"
+      ],
+      "input_fidelity": "high",
+      "prompt": "Recreate this exact logo as a clean, crisp, flat vector-style logo on a pure solid black background: the same wordmark 'AUTO SERVIS' in bold italic sporty letters, 'AUTO' in silver-white and 'SERVIS' in deep red, the small word 'MIOKOV' centered underneath between two thin horizontal lines, and the thin car-silhouette swoosh line above the letters in light grey turning red toward the front. Same layout and proportions as the reference, sharp clean edges, no blur, no noise, no extra elements, centered with generous black margins."
+    }
+  ]
+}
